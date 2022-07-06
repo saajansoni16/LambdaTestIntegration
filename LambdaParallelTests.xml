@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="3" parallel="tests">
+    <test name="parallel_Env_1">
+        <parameter name="config" value="LambdaParallelTests.json"/>
+        <parameter name="environment" value="Chrome"/>
+        <classes>
+            <class name="LambdaTestCases.GoogleTest"/>
+        </classes>
+    </test>
+
+    <test name="parallel_Env_4">
+        <parameter name="config" value="LambdaParallelTests.json"/>
+        <parameter name="environment" value="Firefox"/>
+        <classes>
+            <class name="LambdaTestCases.GoogleTest"/>
+        </classes>
+    </test>
+
+    <test name="parallel_Env_3">
+        <parameter name="config" value="LambdaParallelTests.json"/>
+        <parameter name="environment" value="Edge"/>
+        <classes>
+            <class name="LambdaTestCases.GoogleTest"/>
+        </classes>
+    </test>
+
+
+</suite>

@@ -1,0 +1,31 @@
+{
+  "server": "hub.lambdatest.com",
+  "user": "saajan_soni",
+  "key": "RwGalW7O9kqhGCoFvlHl56yX5z57lB6LppNrbDgCHqmAe1IN0a",
+
+  "capabilities": {
+    "build": "browserstack-build-3",
+    "geoLocation": "IN"
+  },
+
+  "environments": {
+    "Chrome": {
+      "browser": "Chrome",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": 10
+    },
+    "Firefox": {
+      "browser": "Firefox",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": "11"
+    },
+    "Edge": {
+      "browser": "Edge",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": 11
+    }
+  }
+}

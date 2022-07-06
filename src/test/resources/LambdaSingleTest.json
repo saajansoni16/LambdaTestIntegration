@@ -1,0 +1,19 @@
+{
+  "server": "hub.lambdatest.com",
+  "user": "saajan_soni",
+  "key": "RwGalW7O9kqhGCoFvlHl56yX5z57lB6LppNrbDgCHqmAe1IN0a",
+
+  "capabilities": {
+    "build": "Lambda-build-1",
+    "geoLocation": "IN"
+  },
+
+  "environments": {
+    "Chrome": {
+      "platform": "Windows 10",
+      "browserName": "Chrome",
+      "version": "Latest",
+
+    }
+  }
+}
